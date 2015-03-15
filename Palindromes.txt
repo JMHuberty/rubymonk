@@ -1,0 +1,4 @@
+def palindrome?(sentence)
+  new_sentence = sentence.downcase.gsub(' ', '')
+  new_sentence == new_sentence.reverse
+end
